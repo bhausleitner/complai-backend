@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ComplAI.API</name>
+    </assembly>
+    <members>
+        <member name="M:ComplAI.API.Controllers.RegulationController.GetAllRegulations">
+            <summary>
+            Get a list of regulations
+            </summary>
+            <response code="200">  A list is returned successfully </response>
+            <response code="500">  Could not retrieve a list of regulations now  </response>
+        </member>
+    </members>
+</doc>
